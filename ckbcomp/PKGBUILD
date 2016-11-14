@@ -2,7 +2,7 @@
 # Ex-Maintainer: 	Jeroen Bollen <jbinero at gmail dot com>
 
 pkgname=ckbcomp
-pkgver=1.152
+pkgver=1.153
 pkgrel=1
 pkgdesc="Compile a XKB keyboard description to a keymap suitable for loadkeys or kbdcontrol"
 arch=(any)
@@ -10,7 +10,7 @@ url="http://anonscm.debian.org/cgit/d-i/console-setup.git/"
 license=('GPL2')
 depends=('perl')
 source=("http://ftp.de.debian.org/debian/pool/main/c/console-setup/console-setup_${pkgver}.tar.xz")
-sha512sums=('94893b447e4d0571e0cddcf1dfb211d8a844bbaaf871223f6d907a24701339856c66216c7c010f6bb7fccf1a36e484b7baed3f7aa0d271b06086578e4895acd7')
+sha512sums=('85d30db6a863e4421234ce0c13966c5be75bbd209f59c74f55097e0727192e9c7246a5623add80abb5ffb4b21e8d015dabd2f5d484a5a29a9891f27057a5bf93')
 
 package() {
   cd console-setup-${pkgver}
