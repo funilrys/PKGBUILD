@@ -22,6 +22,8 @@ sha512sums_i686=('66cacc2f4e30ac4472975c46881e4446ad645d7f4adc7a6d6487c02c2a2903
 package() {
     install -dm755 "$pkgdir"{/usr/share/applications,/usr/{bin,share/$pkgname/{locales,misc/linux,resources}}}
 
+    # srcdir=$(dirname ${srcdir})
+
     if [ $CARCH == "x86_64" ]
     then
         cd $srcdir/Kaku-$pkgver
